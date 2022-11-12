@@ -1,0 +1,105 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://mspalti.github.io/annonatate/manifests/iiif/e3ada370-62a5-4d81-862d-38a168356191/manifest.json",
+  "label": "Waller Hall & the State Capitol building",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Waller Hall & the State Capitol building"
+    },
+    {
+      "label": "Issue Date",
+      "value": "1984"
+    },
+    {
+      "label": "metadata.dc.relation.ispartof",
+      "value": [
+        "Willamette University Archives",
+        "Campus Photographs"
+      ]
+    },
+    {
+      "label": "metadata.dc.rights",
+      "value": "Educational use is permitted without permission. Permission is required for additional uses.  See http://library.willamette.edu/external/commons/conditions_of_use/ for more information."
+    }
+  ],
+  "description": "Black and White",
+  "license": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+  "seeAlso": {
+    "@id": "https://digitalcollections.willamette.edu/server/iiif/e3ada370-62a5-4d81-862d-38a168356191/manifest/seeAlso",
+    "@type": "sc:AnnotationList",
+    "label": "More descriptions of this resource"
+  },
+  "sequences": [
+    {
+      "@id": "https://digitalcollections.willamette.edu/server/iiif/e3ada370-62a5-4d81-862d-38a168356191/sequence/s0",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://digitalcollections.willamette.edu/server/iiif/e3ada370-62a5-4d81-862d-38a168356191/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Image 1",
+          "metadata": [
+            {
+              "label": "File name",
+              "value": "2548.jp2"
+            }
+          ],
+          "thumbnail": {
+            "@id": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/full/90,/0/default.jpg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "protocol": "http://iiif.io/api/image"
+            },
+            "format": "image/jp2"
+          },
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5",
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image"
+                },
+                "format": "image/jp2"
+              },
+              "on": "https://digitalcollections.willamette.edu/server/iiif/e3ada370-62a5-4d81-862d-38a168356191/canvas/c0"
+            }
+          ],
+          "width": 3546,
+          "height": 5661
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/full/90,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5",
+      "profile": "http://iiif.io/api/image/2/level0.json",
+      "protocol": "http://iiif.io/api/image"
+    },
+    "format": "image/jp2"
+  },
+  "logo": {
+    "@id": "https://library.willamette.edu/images/iiif/willamette-university-logo-head_rgb.png",
+    "format": "image/png"
+  },
+  "viewingHint": "individuals",
+  "related": {
+    "@id": "https://digitalcollections.willamette.edu/items/e3ada370-62a5-4d81-862d-38a168356191",
+    "label": "DSpace item view",
+    "format": "text/html"
+  }
+}
