@@ -1,0 +1,9 @@
+---
+canvas_id: "https://digitalcollections.willamette.edu/image-server/iiif/2/724ae65f-5dd1-4d56-b85c-4b4b19f509d0/info.json"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
