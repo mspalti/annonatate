@@ -1,0 +1,31 @@
+---
+canvas: "https://digitalcollections.willamette.edu/image-server/iiif/2/724ae65f-5dd1-4d56-b85c-4b4b19f509d0/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Two people on stairs",
+            "purpose": "commenting",
+            "creator": {
+                "id": "mspalti",
+                "name": "Michael Spalti"
+            },
+            "created": "2022-11-12T01:26:44.303Z",
+            "modified": "2022-11-12T01:26:49.838Z"
+        }
+    ],
+    "target": {
+        "source": "https://digitalcollections.willamette.edu/image-server/iiif/2/724ae65f-5dd1-4d56-b85c-4b4b19f509d0/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1334.4097900390625,1324.5433349609375,519.5643310546875,406.208740234375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "cb9df084-a7ab-439e-8638-7ec66e2e96a5.json",
+    "motivation": "commenting"
+}
