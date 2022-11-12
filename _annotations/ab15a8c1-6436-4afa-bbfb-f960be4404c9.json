@@ -1,0 +1,31 @@
+---
+canvas: "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Oregon State Capitol",
+            "purpose": "highlighting",
+            "creator": {
+                "id": "mspalti",
+                "name": "Michael Spalti"
+            },
+            "created": "2022-11-12T01:46:52.296Z",
+            "modified": "2022-11-12T01:46:59.965Z"
+        }
+    ],
+    "target": {
+        "source": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2500.951904296875,1304.505615234375,981.450439453125,1553.9345703125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ab15a8c1-6436-4afa-bbfb-f960be4404c9.json",
+    "motivation": "commenting"
+}
