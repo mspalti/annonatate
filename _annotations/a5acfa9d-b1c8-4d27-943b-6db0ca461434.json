@@ -1,0 +1,31 @@
+---
+canvas: "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Waller Hall",
+            "purpose": "highlighting",
+            "creator": {
+                "id": "mspalti",
+                "name": "Michael Spalti"
+            },
+            "created": "2022-11-12T01:46:28.466Z",
+            "modified": "2022-11-12T01:46:35.667Z"
+        }
+    ],
+    "target": {
+        "source": "https://digitalcollections.willamette.edu/image-server/iiif/2/201d7a3f-ea2b-4315-bb0d-4f9865ef91f5/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=527.906982421875,653.1525268554688,840.5225830078125,1641.8628540039062"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a5acfa9d-b1c8-4d27-943b-6db0ca461434.json",
+    "motivation": "commenting"
+}
